@@ -1,0 +1,266 @@
+div {
+  padding-top: 30pt;
+  padding-bottom: 30pt;
+}
+
+/*輪播圖*/
+
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+#carousel {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+/*輪播圖*/
+
+#carousel img {
+  width: 1000px;
+}
+
+/*輪播圖*/
+
+#carousel>ul {
+  display: flex;
+  position: absolute;
+}
+
+/*輪播圖*/
+
+#carousel>ul,
+#carousel>ul>li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*輪播圖*/
+
+#carousel>ul {
+  animation: switch 4s ease 1s infinite alternate;
+}
+
+/*輪播圖*/
+
+#carousel>ul:hover {
+  animation-play-state: paused;
+}
+
+/*輪播圖*/
+
+@keyframes switch {
+
+  0%,
+  20% {
+    left: 0;
+  }
+
+  40%,
+  60% {
+    left: -1000px;
+  }
+
+  80%,
+  100% {
+    left: -2000px;
+  }
+}
+
+/*輪播圖*/
+
+.abc {
+  text-align: center;
+}
+
+/*網站內連結到角色介紹和歷年作品網頁的超連結*/
+
+body {
+  background: linear-gradient(white, #b8eaff);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+/*全部網頁的背景*/
+
+.A {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  right: 0;
+  left: 30px;
+  bottom: 0;
+  margin: auto;
+  color: #131f25
+}
+
+/*海綿寶寶簡介*/
+
+.B {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top: 0px;
+  right: 50%;
+  left: 33%;
+  bottom: 0;
+  margin: auto;
+}
+
+/*海綿寶寶圖片*/
+
+.C {
+  position: absolute;
+  z-index: 2;
+  top: 600px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  color: #131f25
+}
+
+/*派大星簡介*/
+
+.D {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top: 150px;
+  right: 50%;
+  left: 33%;
+  bottom: 0;
+  margin: auto;
+}
+
+/*派大星圖片*/
+
+.E {
+  position: absolute;
+  z-index: 2;
+  top: 1200px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  color: #131f25
+}
+
+/*蟹老闆簡介*/
+
+.F {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top: 150px;
+  right: 50%;
+  left: 33%;
+  bottom: 0;
+  margin: auto;
+}
+
+/*蟹老闆圖片*/
+
+.G {
+  position: absolute;
+  z-index: 2;
+  top: 1800px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  color: #131f25
+}
+
+/*章魚哥簡介*/
+
+.H {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top: 150px;
+  right: 59%;
+  left: 46%;
+  bottom: 0;
+  margin: auto;
+}
+
+/*章魚哥圖片*/
+
+.aaa {
+  position: absolute;
+  z-index: 2;
+  top: 1700px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*首頁的頁尾超連結*/
+
+.aa {
+  position: absolute;
+  z-index: 2;
+  top: 2200px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*角色介紹頁的頁尾超連結*/
+
+#bb {
+  z-index: 9999;
+  width: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 5%;
+  height: auto;
+}
+
+/*回到頂部*/
+
+#bb .bbb {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*回到頂部*/
+
+table {
+  margin-left: 40%;
+}
+
+/*表格*/
+
+h2 {
+  color: #4c7b9e;
+}
+
+h3 {
+  color: #6281fe;
+}
+
+p {
+  color: #176457;
+}
+
+table {
+  border-style: dotted;
+  color: #45a595;
+  border-color: #3dabff;
+}
+
+/*表格*/
